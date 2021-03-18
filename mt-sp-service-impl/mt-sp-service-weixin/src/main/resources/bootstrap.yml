@@ -1,0 +1,43 @@
+spring:
+  application:
+    ###服务的名称
+    name: mayikt-weixin
+  cloud:
+    nacos:
+      discovery:
+        ###nacos注册地址
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+  datasource:
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.119.121.122:3306/mayikt_wechat?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+server:
+  port: 9000
+
+
+logging:
+  level:
+    org.springframework.web: INFO
+    com.github.binarywang.demo.wx.mp: DEBUG
+    me.chanjar.weixin: DEBUG
+wx:
+  mp:
+    configs:
+    - appId: wx5f7e3826a5b0ccc8
+      secret: de72e3a9e0fe3dfdb5fd044cee3f51ba
+      token: mayikt
+
+mayikt:
+  wx:
+    defaultMsg: 您的消息我已经收到了，后期会给您回复的噢!
+    weatherUrl: http
+  member:
+    weixin:
+      login:
+        templateId: nVIaflOUQnR24Rd_phSlkctE7VBqYAl-TY-ksCPpRa8
