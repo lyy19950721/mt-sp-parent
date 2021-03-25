@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mt-sp-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mt-sp-basics/mt-sp-basics-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mt-sp-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mt-sp-service-api/mt-sp-service-api-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mt-sp-service-api/mt-sp-service-api-weixin" charset="UTF-8" />
@@ -9,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/mt-sp-service-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mt-sp-service-impl/mt-sp-service-member" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mt-sp-service-impl/mt-sp-service-weixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mt-sp-service-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mt-sp-service-mq/mt-sp-service-member-consumer" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

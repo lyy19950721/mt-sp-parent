@@ -7,21 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mt-sp-basics-gateway" />
         <module name="mt-sp-service-api-member" />
         <module name="mt-sp-service-api-weixin" />
         <module name="mt-sp-service-base" />
         <module name="mt-sp-service-member" />
+        <module name="mt-sp-service-member-consumer" />
         <module name="mt-sp-service-weixin" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mt-sp-basics-gateway" options="-parameters" />
       <module name="mt-sp-service-api-member" options="-parameters" />
       <module name="mt-sp-service-api-weixin" options="-parameters" />
       <module name="mt-sp-service-base" options="-parameters" />
       <module name="mt-sp-service-impl" options="-parameters" />
       <module name="mt-sp-service-member" options="-parameters" />
+      <module name="mt-sp-service-member-consumer" options="-parameters" />
+      <module name="mt-sp-service-mq" options="-parameters" />
       <module name="mt-sp-service-weixin" options="-parameters" />
     </option>
   </component>

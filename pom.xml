@@ -12,6 +12,8 @@
         <module>mt-sp-service-api</module>
         <module>mt-sp-service-impl</module>
         <module>mt-sp-service-base</module>
+        <module>mt-sp-service-mq</module>
+        <module>mt-sp-basics</module>
     </modules>
 
     <parent>
